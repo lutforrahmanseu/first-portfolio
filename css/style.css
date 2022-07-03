@@ -5,6 +5,7 @@ body{
 }
 section{
     display: flex;   
+    margin-bottom: 80px;
 }
 .on-side{
     width: 50%;
@@ -23,11 +24,15 @@ h1{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(45deg,rgb(194, 132, 132),rgb(184, 61, 61),red);
+    background-image: linear-gradient(45deg,rgb(194, 132, 132),rgb(184, 61, 61),rgb(170, 36, 36),red);
     color: white;
     font-weight: 700;
     padding: 10px  40px;
     border-radius: 5px;
+}
+.link-button:hover{
+    color: skyblue;
+    background-image: linear-gradient(45deg,gray,rgb(39, 37, 37),rgb(10, 9, 9),black);
 }
 .top-banner{
     background-image: url(../images/top-banner.png);
@@ -36,5 +41,6 @@ h1{
 .dream-area{
     background-image: url(../images/dream-bg.png);
     background-repeat: no-repeat;
+    background-position: right;
     
 }
